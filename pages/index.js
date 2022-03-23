@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <main className="main">
         <nav className="navbar mt-5">
           <div className="container">
             <div className="navbar-brand">
@@ -41,13 +41,39 @@ export default function Home() {
                 <section className="mt-5">
                   <div className="mt-5">
                     <div className="card">
-                      <div className ="card-content">
+                      <div className="card-content">
                         <div className="content">
                           <h2>Lottery History</h2>
                           <div className="history-entry">
                             <div>Lottery #1 winner:</div>
                             <a href="https://etherscan.io/address/0xb65C27Fe6Ee50B9C215356F18e6c674a278dCc23" target="_blank" rel="noreferrer">0xb65C27Fe6Ee50B9C215356F18e6c674a278dCc23</a>
                           </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section className="mt-5">
+                  <div className="mt-5">
+                    <div className="card">
+                      <div className="card-content">
+                        <div className="content">
+                          <h2>Players (1)</h2>
+                          <div>
+                            <a href="https://etherscan.io/address/0xb65C27Fe6Ee50B9C215356F18e6c674a278dCc23" target="_blank" rel="noreferrer">0xb65C27Fe6Ee50B9C215356F18e6c674a278dCc23</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section className="mt-5">
+                  <div className="mt-5">
+                    <div className="card">
+                      <div className="card-content">
+                        <div className="content">
+                          <h2>Pot</h2>
+                          <h2>1O Ether</h2>
                         </div>
                       </div>
                     </div>
