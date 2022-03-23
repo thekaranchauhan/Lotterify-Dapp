@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import 'bulma/css/bulma.css'
+import  Web3 from 'web3'
 
 export default function Home() {
   return (
