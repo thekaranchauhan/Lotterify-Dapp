@@ -1,8 +1,8 @@
-.container {
-}
+
 
 .main {
-  min-height: 100vh;
+  min-height: 87vh;
+  background-color: hsl(0, 0%, 21%)
 }
 
 .main h1{
@@ -11,13 +11,18 @@
   color: #000;
 }
 
+.player-list ul li{
+  list-style-type: none;
+}
+
 .footer {
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid #363636;
   justify-content: center;
   align-items: center;
+  background: #363636;
 }
 
 .footer a {
